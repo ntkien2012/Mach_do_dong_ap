@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=L_USB_D- Pin=U8-4
+Removed Pin From Net: NetName=L_USB_D+ Pin=U8-6
+Change Component Footprint: Designator=Y1 Old Footprint=Xtal-smd New Footprint=Thach_anh
+Change Component Footprint: Designator=Y3 Old Footprint=Xtal-smd New Footprint=Thach_anh
+Change Component Designator: OldDesignator=ON/OFF NewDesignator=RESET2
+Change Net Name : Old Net Name=H_USB_D+ New Net Name=H_USB_D_P
+Change Net Name : Old Net Name=H_USB_D- New Net Name=H_USB_D_N
+Change Net Name : Old Net Name=TPIN+ New Net Name=TPIN_P
+Change Net Name : Old Net Name=TPIN- New Net Name=TPIN_N
+Change Net Name : Old Net Name=TPOUT+ New Net Name=TPOUT_P
+Change Net Name : Old Net Name=TPOUT- New Net Name=TPOUT_N
+Added Pin To Net: NetName=L_USB_D_N Pin=U8-4
+Added Net: Name=L_USB_D_N
+Added Pin To Net: NetName=L_USB_D_P Pin=U8-6
+Added Net: Name=L_USB_D_P
+Added Differential Pair: Name=TPIN
+Added Differential Pair: Name=TPOUT
+Added Member To Class: ClassName=Mach do dong Member=Component RESET2 SW
